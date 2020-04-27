@@ -27,7 +27,7 @@ export default (function () {
         barWidth: '3',
         resize: true,
         barSpacing: '3',
-        barColor: '#9675ce',
+        barColor: '#5075ce',
       });
     }
 
@@ -49,7 +49,7 @@ export default (function () {
         barWidth: '3',
         resize: true,
         barSpacing: '3',
-        barColor: '#f96262',
+        barColor: '#f50262',
       });
     }
   };

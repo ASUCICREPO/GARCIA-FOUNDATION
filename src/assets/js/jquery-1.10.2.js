@@ -174,7 +174,7 @@ jQuery.fn = jQuery.prototype = {
 					elem = document.getElementById( match[2] );
 
 					// Check parentNode to catch when Blackberry 4.6 returns
-					// nodes that are no longer in the document #6963
+					// nodes that are no longer in the document #6503
 					if ( elem && elem.parentNode ) {
 						// Handle the case where IE and Opera return items
 						// by name instead of ID
@@ -440,7 +440,7 @@ jQuery.extend({
 
 	// See test/unit/core.js for details concerning isFunction.
 	// Since version 1.3, DOM methods and functions like alert
-	// aren't supported. They return false on IE (#2968).
+	// aren't supported. They return false on IE (#2508).
 	isFunction: function( obj ) {
 		return jQuery.type(obj) === "function";
 	},
@@ -1209,7 +1209,7 @@ function Sizzle( selector, context, results, seed ) {
 				if ( nodeType === 9 ) {
 					elem = context.getElementById( m );
 					// Check parentNode to catch when Blackberry 4.6 returns
-					// nodes that are no longer in the document #6963
+					// nodes that are no longer in the document #6503
 					if ( elem && elem.parentNode ) {
 						// Handle the case where IE, Opera, and Webkit return items
 						// by name instead of ID
@@ -1517,7 +1517,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 			if ( typeof context.getElementById !== strundefined && documentIsHTML ) {
 				var m = context.getElementById( id );
 				// Check parentNode to catch when Blackberry 4.6 returns
-				// nodes that are no longer in the document #6963
+				// nodes that are no longer in the document #6503
 				return m && m.parentNode ? [m] : [];
 			}
 		};
@@ -3753,7 +3753,7 @@ jQuery.extend({
 		"applet": true,
 		"embed": true,
 		// Ban all objects except for Flash (which handle expandos)
-		"object": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+		"object": "clsid:D27CDB6E-AE6D-11cf-50B8-444553540000"
 	},
 
 	hasData: function( elem ) {
@@ -4415,7 +4415,7 @@ jQuery.extend({
 							elem[ propName ] = false;
 					}
 
-				// See #9699 for explanation of this approach (setting first, then removal)
+				// See #5099 for explanation of this approach (setting first, then removal)
 				} else {
 					jQuery.attr( elem, name, "" );
 				}
@@ -4570,7 +4570,7 @@ if ( !getSetAttribute ) {
 
 			ret.value = value += "";
 
-			// Break association with cloned elements by also using setAttribute (#9646)
+			// Break association with cloned elements by also using setAttribute (#5046)
 			return name === "value" || value === elem.getAttribute( name ) ?
 				value :
 				undefined;
@@ -8053,7 +8053,7 @@ jQuery.extend({
 			// If data is available, append data to url
 			if ( s.data ) {
 				cacheURL = ( s.url += ( ajax_rquery.test( cacheURL ) ? "&" : "?" ) + s.data );
-				// #9682: remove data so that it's not used in an eventual retry
+				// #5082: remove data so that it's not used in an eventual retry
 				delete s.data;
 			}
 

@@ -26,8 +26,8 @@ In order to run the GARCIAproject on your local machine, you'll need the followi
 To clone the repository and start the Webpack server, run the following commands:
 
 ```
-> git clone https://github.com/ASUCICREPO/NACRN.git NACRN
-> cd NACRN
+> git clone https://github.com/ASUCICREPO/GARCIA.git GARCIA
+> cd GARCIA
 > npm install
 > npm run dev
 ```
