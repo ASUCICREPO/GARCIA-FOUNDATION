@@ -1,4 +1,4 @@
-# NACRN Prototype Application
+# GARCIAPrototype Application
 This project is based on the Bootstrap 4 **Adminator** dashboard theme, seen [here](https://github.com/puikinsh/Adminator-admin-dashboard).  Note that some of the functionality brought by the dashboard theme is not used, like calendar plugins, Google Maps integration, etc.  
 
 ## TOC
@@ -14,7 +14,7 @@ This project is based on the Bootstrap 4 **Adminator** dashboard theme, seen [he
 
 
 ## Getting Started
-In order to run the NACRN project on your local machine, you'll need the following prerequesite software installed.  After installing the necessary software, follow the startup instructions given below to host the project and start development.
+In order to run the GARCIAproject on your local machine, you'll need the following prerequesite software installed.  After installing the necessary software, follow the startup instructions given below to host the project and start development.
 
 #### Prerequisites
   - Node.js
