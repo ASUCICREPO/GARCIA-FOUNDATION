@@ -352,9 +352,9 @@ if (url.includes('form')) {
   document.querySelector('#sideNavBar').innerHTML = form_management_sidenav;
   document.querySelector('#topBar').innerHTML = admin_settings;
 } else if (url.includes('admin')){
-  document.querySelector('#sideNavBar').innerHTML = adminBar
-  document.querySelector('#topBar').innerHTML = admin_settings
+  document.querySelector('#sideNavBar').innerHTML = form_management_sidenav;
+  document.querySelector('#topBar').innerHTML = admin_settings;
 
 } else {
-  document.querySelector('#sideNavBar').innerHTML = endUserBar
+  document.querySelector('#sideNavBar').innerHTML = endUserBar;
 }
