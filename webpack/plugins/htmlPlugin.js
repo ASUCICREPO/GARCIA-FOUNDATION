@@ -71,7 +71,8 @@ const titles = {
   'calendar_careCoordinator': 'calendar_careCoordinator',
     'add-remove-admin': 'add-remove-admin',
   'caretaker-admin': 'caretaker',
-  'form-management-admin': 'form-management-admin'
+  'form-management-admin': 'form-management-admin',
+  'adminChat': 'adminChat'
 
 
 }
