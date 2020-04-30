@@ -74,7 +74,6 @@ const titles = {
   'form-management-admin': 'form-management-admin',
   'adminChat': 'adminChat'
 
-
 }
 
 module.exports = Object.keys(titles).map((title) => {
