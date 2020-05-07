@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Settings</title>
+    <title>Questionaire</title>
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Public+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
     <style>
@@ -100,159 +100,678 @@
       }
     </script>
 
-    <!-- @App Content -->
-    <!-- =================================================== -->
-
-          <!-- ### $Sidebar Menu ### -->
-          
-        <!-- ### $App Screen Content ### -->
         <main class='main-content bgc-grey-100'>
           <div id='mainContent'>
-            <div class="container-fluid" id="profileCardContainer">
-                <div class="col-md-9" id="centeredCard">
-                  <div class="card">
-                    <div class="card-header card-header-secondary">
-                        <div>
-     <div class="sidebar-logo">
-            <div class="peers ai-c fxw-nw">
-              <div class="peer peer-greed">
-                <a class="sidebar-link td-n" href="index.html">
-                  <div class="peers ai-c fxw-nw">
-                    <div class="peer">
-                      <div class="logo">
-                        <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
-                      </div>
-                    </div>
-                    <div class="peer peer-greed">
-                      
-                      <h4>  We require few additional details to match you best with our programs available. Please fill the following details.</h4>
-                      
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            
-</div>
-                
-                      
-          
-                                      
-    
-                  
-                    
-                    <div class = "card-body">
 
-<div class="form-group w-50">
-          <label class="text-normal text-dark">Full Name</label>
-            <input type="text" class="form-control" name="username" id="username" value = "John Doe" readonly  >
+
+
+    <div class="container">
+      <div class="peers ai-c fxw-nw">
+        <div class="peer">
+          <div class="logo" style="padding-right: 30px;">
+            <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
           </div>
-         <div class="form-group w-50">
-          <label class="text-normal text-dark">Username</label>
-            <input type="text" class="form-control" name="username" id="username" value = "JohnDoe" readonly >
-          </div>
-          <div class="form-group w-50">
-          <label class="text-normal text-dark">Email</label>
-            <input type="email" class="form-control" name="username" id="username" value = "John_doe@gmail.com" readonly >
-          </div>
-          <div class="form-group w-50">
-          <label class="text-normal text-dark">Date of Birth</label>
-            <input class="form-control" type="date" name="bday" required>
-          </div>
-          <div class="form-group w-50">
-          <label class="text-normal text-dark">Sex</label>
+        </div>
+        <div class="peer peer-greed">
           
+          <h4>  We require few additional details to match you best with our programs available. Please fill the following details.</h4>
           
-          <div class = "radio">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Male" required>
-  <label class="form-check-label" for="exampleRadios1">
-    Male
-  </label>
-  </div>
-  <div class = "radio">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Female" >
-  <label class="form-check-label" for="exampleRadios1">
-    Female
-  </label>
-  </div>
-  <div class = "radio">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Non Binary" >
-  <label class="form-check-label" for="exampleRadios1">
-    Non Binary
-  </label>
+        </div>
+      </div>
+
+    <!-- </div> -->
   
-  
-</div>
-</div>
-            
-          
-          
+<div class="form-group">
 
-          
-          
-<!-- Material unchecked -->
-
-<div class = "form-group">
-<div class="form-check checkbox-warning-filled">
-<div class ="row">
-<label class="text-normal text-dark">Please check the programs your are currently enrolled into</label>
-</div>
-
-<div class ="row">
-<div class="checkbox checkbox-Square checkbox-info peers ai-c"><input type="checkbox" id="inputCall1" name="inputCheckboxesCall" class="peer"> <label for="inputCall1" class="peers peer-greed js-sb ai-c"><span class="peer peer-greed">Single Moms Homelessness</span></label></div>
-
-</div>
-<div class ="row">
-<div class="checkbox checkbox-Square checkbox-info peers ai-c"><input type="checkbox" id="inputCall1" name="inputCheckboxesCall" class="peer"> <label for="inputCall1" class="peers peer-greed js-sb ai-c"><span class="peer peer-greed">Single Dads Organization</span></label></div>
-</div>
-<div class ="row">
-<div class="form-check form-check-inline">
-  <div class="checkbox checkbox-Square checkbox-info peers ai-c"><input type="checkbox" id="inputCall1" name="inputCheckboxesCall" class="peer"> <label for="inputCall1" class="peers peer-greed js-sb ai-c"><span class="peer peer-greed">Senior Citizens Benefits Program</span></label></div>
-</div>
-</div>
-<div class ="row">
-<div class="form-check form-check-inline">
-  <div class="checkbox checkbox-Square checkbox-info peers ai-c"><input type="checkbox" id="inputCall1" name="inputCheckboxesCall" class="peer"> <label for="inputCall1" class="peers peer-greed js-sb ai-c"><span class="peer peer-greed">Youth for Work</span></label></div>
-</div>
-</div>
-</div>
-</div>
-<div class="form-group w-50">
-          <label class="text-normal text-dark">Please select "Yes" if  you possess SSN.</label>
-          <div class = "radio">
-          <input class="form-check-input" type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck" required/>
-          <label class="form-check-label" for="exampleRadios1">Yes</label>
-          </div>
-            
-  <div class = "radio">
-            <input class="form-check-input" type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck"/>
-            <label class="form-check-label" for="exampleRadios1">No</label>
-            </div>
-          <div id="ifYes" style="visibility:hidden"><label class="text-normal text-dark">Please enter your valid SSN ID</label>
-    <input type="text" class="form-control" name="username" id="username" placeholder = "ABC-DEF-EFGH" required>   
-</div>
-</div>
-
-          
-                            <div class="text-right">
-                            <a href="questionnaire2.html">
-                              <button type="button" class="btn btn-primary pull-right" id="saveProfileButton">Submit</button>
-                            </a>
-                          </div>
-                          
-      
  
+          <label class="text-normal text-dark">What is your full name? (Including middle name)</label>
+            <input type="text" class="form-control" required  >
+          </div>
+          
+          <div class="form-group">
+            <label class="text-normal text-dark">Date of Birth</label>
+              <input class="form-control" type="date" name="bday" required>
+            
+            </div>
+
+            <div class="form-group">
+              <label class="text-normal text-dark">SSN</label>
+                <input type="text" class="form-control" name="ssn" id="ssn" value = ""placeholder = "Enter your SSN"  >
+              </div>
+        
+              <div class="form-group">
+                          <label class="text-normal text-dark">What is your gender?</label>
+                          
+                          
+                          <div class = "radio">
+                  <input type="radio" name="exampleRadios" value="Male">
+                          <label class="form-check-label" for="exampleRadios1">Male</label>
+                
+                  
+                  </div>
+                  <div class = "radio">
+                  
+                  <input type="radio" name="exampleRadios" value="Female" >
+                  <label class="form-check-label" for="exampleRadios1">Female</label>
+                  
+                  </div>
+                  <div class = "radio">
+                
+                    <input type="radio" name="exampleRadios" value="Non Binary" >
+                      <label class="form-check-label" for="exampleRadios1">Non Binary</label>
+                    <div>
                     
-                   </div>
+                  
                   </div>
                 </div>
+       </div>
+
+
+       <div class="form-group">
+        <label class="text-normal text-dark">What is your ethnicity/race?</label>
+        <select id="inputState" class="form-control">
+          <option selected>Primary Race</option>
+          <option>Secondary Race</option>
+          <option>ethnicity</option>
+          <option>Native American or American Indian</option>
+          <option>Asian / Pacific Islander</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+
+
+      <div class="form-group">
+        <label class="text-normal text-dark">Do you have a State ID?</label>
+        
+        
+                    <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+                    <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
             </div>
-          </div>
-        </main>
+            <div class = "radio">
+
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+
+        </div>
+
+        </div>
+
+
+<div class="form-group">
+  <label class="text-normal text-dark">Do you have a SS card?</label>
+  
+  
+  <div class = "radio">
+<input type="radio" name="exampleRadios" value="Yes">
+  <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+</div>
+<div class = "radio">
+
+<input type="radio" name="exampleRadios" value="No" >
+<label class="form-check-label" for="exampleRadios1">No</label>
+
+</div>
+
+</div>
+
+<div class="form-group">
+  <label class="text-normal text-dark">Do you have a birth certificate?</label>
+  
+  
+  <div class = "radio">
+<input type="radio" name="exampleRadios" value="Yes">
+  <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+</div>
+<div class = "radio">
+
+<input type="radio" name="exampleRadios" value="No" >
+<label class="form-check-label" for="exampleRadios1">No</label>
+
+</div>
+
+</div>
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Do you have an income? (SSI/SSDI/Employment)</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" onclick="togglevisibility('hasincomequestions', 'true')" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+            </div>
+            <div class = "radio">
+
+            <input type="radio" onclick="togglevisibility('hasincomequestions', 'false')" name="exampleRadios" value="No" >
+            <label class="form-check-label"  for="exampleRadios1">No</label>
+
+            </div>
+            <div id="hasincomequestions">
+              <div class="form-group">
+                <label class="text-normal text-dark">Total Amount?</label>
+                  <input type="text" class="form-control"  >
+                </div>
+        
+
+              <div class="form-group">
+                <label class="text-normal text-dark">what income source types with amounts</label>
+                  <input type="text" class="form-control"  >
+                </div>
+           
+
+            </div>
+         
+
+
+<div class="form-group">
+  <label class="text-normal text-dark">Do you have medical insurance?</label>
+  
+  
+  <div class = "radio">
+<input type="radio" onclick="togglevisibility('hasinsurance', 'true')" name="exampleRadios" value="Yes">
+  <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+</div>
+<div class = "radio">
+
+<input type="radio" onclick="togglevisibility('hasinsurance', 'false')" name="exampleRadios" value="No" >
+<label class="form-check-label" for="exampleRadios1">No</label>
+
+</div>
+
+</div>
+
+<div id="hasinsurance">
+  <div class="form-group">
+    <label class="text-normal text-dark">what type of health insurance?</label>
+      <input type="text" class="form-control"  >
+    </div>
+
+    <div class="form-group">
+      <label class="text-normal text-dark"> what plan/who is the carrier?</label>
+        <input type="text" class="form-control"  >
       </div>
     </div>
-    
 
-    <script src="https://kit.fontawesome.com/bbf8fb8b35.js" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+<div class="form-group">
+  <label class="text-normal text-dark">Do you have a disability? (Substance use/SMI determination?)</label>
+  
+  
+  <div class = "radio">
+<input type="radio" name="exampleRadios" value="Yes">
+  <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+</div>
+<div class = "radio">
+
+<input type="radio" name="exampleRadios" value="No" >
+<label class="form-check-label" for="exampleRadios1">No</label>
+
+</div>
+
+</div>
+
+<div class="form-group">
+  <label class="text-normal text-dark">Are you a domestic violence survivor?</label>
+  
+  
+  <div class = "radio">
+<input type="radio" name="exampleRadios" value="Yes">
+  <label class="form-check-label" for="exampleRadios1">Yes</label>
+
+
+</div>
+<div class = "radio">
+
+<input type="radio" name="exampleRadios" value="No" >
+<label class="form-check-label" for="exampleRadios1">No</label>
+
+</div>
+
+</div>
+
+<label class="text-normal text-dark">Also asks if you are currently fleeing domestic violence and how long ago it occurred?</label>
+    <input type="textarea" class="form-control" >
+
+<div class="form-group">
+  <label class="text-normal text-dark">Do you have a phone number or other contact information?</label>
+    <input type="text" class="form-control" >
+  </div>
+
+
+  <div class="form-group">
+    <label class="text-normal text-dark">Where did you sleep last night? (defines circumstance)</label>
+      <input type="text" class="form-control" >
+    </div>
+<div class="form-group">
+    <label class="text-normal text-dark">Where did you sleep last night? (defines circumstance)</label>
+      <input type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label class="text-normal text-dark">What zip code did you last live in?</label>
+        <input type="text" class="form-control" >
+      </div>
+
+      <div class="form-group">
+        <label class="text-normal text-dark">What city were you in last night? (gives location)</label>
+          <input type="text" class="form-control" >
+        </div>
+  
+        <div class="form-group">
+          <label class="text-normal text-dark">Do you have friends or family you can stay with? (Diversion)</label>
+          
+          
+          <div class = "radio">
+        <input type="radio" name="exampleRadios" value="Yes">
+          <label class="form-check-label" for="exampleRadios1">Yes</label>
+        
+        
+        </div>
+        <div class = "radio">
+        
+        <input type="radio" name="exampleRadios" value="No" >
+        <label class="form-check-label" for="exampleRadios1">No</label>
+        
+        </div>
+        
+        </div>
+
+
+        <div class="form-group">
+          <label class="text-normal text-dark">What is the reason for your homelessness?</label>
+            <input type="textarea" class="form-control"  id="sdfsdf"  required >
+          </div>
+
+          <div class="form-group">
+                    <label class="text-normal text-dark">Do you have any outstanding legal issues?</label>
+                    
+                    
+                    <div class = "radio">
+                  <input type="radio" name="exampleRadios" value="Yes">
+                    <label class="form-check-label" for="exampleRadios1">Yes</label>
+                  
+                  
+                  </div>
+                  <div class = "radio">
+                  
+                  <input type="radio" name="exampleRadios" value="No" >
+                  <label class="form-check-label" for="exampleRadios1">No</label>
+                  
+                  </div>
+          
+          </div>
+          
+
+
+          <div class="form-group">
+            <label class="text-normal text-dark">Do you have any felony or legal background?</label>
+            
+            
+            <div class = "radio">
+          <input type="radio" name="exampleRadios" value="Yes">
+            <label class="form-check-label" for="exampleRadios1">Yes</label>
+          
+          
+          </div>
+          <div class = "radio">
+          
+          <input type="radio" name="exampleRadios" value="No" >
+          <label class="form-check-label" for="exampleRadios1">No</label>
+          
+          </div>
+          
+          </div>
+
+
+          <div class="form-group">
+            <label class="text-normal text-dark">Do you have an emergency contact?</label>
+              <input type="textarea" class="form-control"    required >
+            </div>
+            
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Are you experiecing any medical conditions?</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+            
+            
+            </div>
+            <div class = "radio">
+            
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+            
+            </div>
+            
+            </div>
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Client signed release of information (ROI)?</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+            
+            
+            </div>
+            <div class = "radio">
+            
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+            
+            </div>
+            
+            </div>
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Connected to Mental Health Clinic?</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+            
+            
+            </div>
+            <div class = "radio">
+            
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+            
+            </div>
+            
+            </div>
+
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Do you have a housing plan developed with a navigator or case manager?</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+            
+            
+            </div>
+            <div class = "radio">
+            
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+            
+            </div>
+            
+            </div>
+
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">Do you have a housing plan developed with a navigator or case manager?</label>
+              
+              
+              <div class = "radio">
+            <input type="radio" name="exampleRadios" value="Yes">
+              <label class="form-check-label" for="exampleRadios1">Yes</label>
+            
+            
+            </div>
+            <div class = "radio">
+            
+            <input type="radio" name="exampleRadios" value="No" >
+            <label class="form-check-label" for="exampleRadios1">No</label>
+            
+            </div>
+            
+            </div>
+
+
+            <div class="form-group">
+              <label class="text-normal text-dark">What is your highest level of education?  </label>
+                <input type="text" class="form-control"    required >
+              </div>
+
+
+
+              <div class="form-group">
+                <label class="text-normal text-dark">What state were you born in?  </label>
+                  <input type="text" class="form-control"    required >
+                </div>
+
+
+                <div class="form-group">
+                  <label class="text-normal text-dark">What is your marital status?   </label>
+                    <input type="text" class="form-control"    required >
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label class="text-normal text-dark">What is your maiden name? </label>
+                      <input type="text" class="form-control"    required >
+                    </div>
+  
+
+                    <div class="form-group">
+                      <label class="text-normal text-dark">Do you have children/dependents?</label>
+                        <input type="text" class="form-control"    required >
+                      </div>
+
+
+
+                      <div class="form-group">
+                        <label class="text-normal text-dark">Are you a sex offender or ever had to register as a sex offender?</label>
+                        
+                        
+                        <div class = "radio">
+                      <input type="radio" name="exampleRadios" value="Yes">
+                        <label class="form-check-label" for="exampleRadios1">Yes</label>
+                      
+                      
+                      </div>
+                      <div class = "radio">
+                      
+                      <input type="radio" name="exampleRadios" value="No" >
+                      <label class="form-check-label" for="exampleRadios1">No</label>
+                      
+                      </div>
+                      
+                      </div>
+
+
+
+
+                      <div class="form-group">
+                        <label class="text-normal text-dark">Are you a US Military Veteran?</label>
+                        
+                        
+                        <div class = "radio">
+                      <input type="radio" name="exampleRadios" value="Yes">
+                        <label class="form-check-label" for="exampleRadios1">Yes</label>
+                      
+                      
+                      </div>
+                      <div class = "radio">
+                      
+                      <input type="radio" name="exampleRadios" value="No" >
+                      <label class="form-check-label" for="exampleRadios1">No</label>
+                      
+                      </div>
+                      
+                      </div>
+
+
+                      <div class="form-group">
+                        <label class="text-normal text-dark">How many episodes of homelessness have you experienced in the past three years?</label>
+                          <input type="text" class="form-control"    required >
+                        </div>
+
+                        <div class="form-group">
+                          <label class="text-normal text-dark">What was the approximate date your homelessness started?</label>
+                            <input class="form-control" type="date" name="bday" required>
+                          
+                          </div>
+
+
+
+                          <div class="form-group">
+                            <label class="text-normal text-dark">How many total months of homelessness have you experienced in the past three years?</label>
+                              <input type="text" class="form-control"    required >
+                            </div>
+
+
+
+
+
+                            <div class="form-group">
+                              <label class="text-normal text-dark">Do you receive any non-cash benefits?</label>
+                              
+                              
+                              <div class = "radio">
+                            <input type="radio" onclick="togglevisibility('hasnoncashbenefits', 'true')" name="exampleRadios" value="Yes">
+                              <label class="form-check-label" for="exampleRadios1">Yes</label>
+                            
+                            
+                            </div>
+                            <div class = "radio">
+                            
+                            <input type="radio" onclick="togglevisibility('hasnoncashbenefits', 'false')" name="exampleRadios" value="No" >
+                            <label class="form-check-label" for="exampleRadios1">No</label>
+                            
+                            </div>
+                            
+                            </div>
+                            
+                            <div id="hasnoncashbenefits">
+                              <div class="form-group">
+                                <label class="text-normal text-dark">what types of non-cash benefits (EBT, etc) ?</label>
+                                  <input type="text" class="form-control"  >
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+                              <label class="text-normal text-dark">If someone needed to contact you for housing, where would they be able to find you?</label>
+                                <input type="text" class="form-control" >
+                              </div>
+
+
+
+
+                              <div class="form-group">
+                                <label class="text-normal text-dark">Are you seeking shelter?</label>
+                                
+                                
+                                <div class = "radio">
+                              <input type="radio" name="exampleRadios" value="Yes">
+                                <label class="form-check-label" for="exampleRadios1">Yes</label>
+                              
+                              
+                              </div>
+                              <div class = "radio">
+                              
+                              <input type="radio" name="exampleRadios" value="No" >
+                              <label class="form-check-label" for="exampleRadios1">No</label>
+                              
+                              </div>
+                              
+                              </div>
+
+
+
+
+                              <div class="form-group">
+                                <label class="text-normal text-dark">Do you have any housing documents like proof of income, a Disability Award Letter, or a DD214?</label>
+                                
+                                
+                                <div class = "radio">
+                              <input type="radio" name="exampleRadios" value="Yes">
+                                <label class="form-check-label" for="exampleRadios1">Yes</label>
+                              
+                              
+                              </div>
+                              <div class = "radio">
+                              
+                              <input type="radio" name="exampleRadios" value="No" >
+                              <label class="form-check-label" for="exampleRadios1">No</label>
+                              
+                              </div>
+                              
+                              </div>
+                              <div class="form-group">
+                                <label class="text-normal text-dark">Do you have pets?</label>
+                                
+                                
+                                <div class = "radio">
+                              <input type="radio" name="exampleRadios" value="Yes">
+                                <label class="form-check-label" for="exampleRadios1">Yes</label>
+                              
+                              
+                              </div>
+                              <div class = "radio">
+                                
+                                <input type="radio" name="exampleRadios" value="No" >
+                                <label class="form-check-label" for="exampleRadios1">No</label>
+                              
+                              </div>
+                              
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                            
+                            </div>
+
+                            <div class="text-right">
+                              <a href="questionnaire2.html">
+                                <button type="button" class="btn btn-primary pull-right" id="saveProfileButton">Submit</button>
+                              </a>
+                            </div>
+                          
+                          <script>
+                            function togglevisibility(id, status){
+       
+                              
+                              if (status === 'true'){
+                                
+                              document.getElementById(id).style.visibility = "visible";
+                              }
+                              else
+                              {
+                              document.getElementById(id).style.visibility = "hidden";
+                              }
+                            }
+                          </script>
+
+
+        <script src="https://kit.fontawesome.com/bbf8fb8b35.js" crossorigin="anonymous"></script>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+                     </html>
+                        
+                              

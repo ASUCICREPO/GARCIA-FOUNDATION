@@ -45,7 +45,7 @@ const titles = {
   endUserChat: 'endUserChat',
   endUserprograms: 'endUserprograms',
 
-  'questionnaire copy': 'questionnaire copy',
+  'questionnaire_main': 'questionnaire_main',
 
   settings: 'Settings',
   'settings-admin': 'Settings',
