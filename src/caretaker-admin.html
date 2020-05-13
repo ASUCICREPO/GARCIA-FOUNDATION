@@ -442,6 +442,12 @@
 
                                   </div>
                                 </div>
+                                <div class="row">
+                                <div class="form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">User agrees to share data with third parties</label>
+                                </div>
+                                </div>
 
                           <div class="row">
                           
@@ -493,7 +499,8 @@
                             </div>
 
                           </div><br>
-                          <button type="button" aria-expanded="false" aria-controls="collapseExample" data-toggle="collapse" href="#collapseExample" class="btn btn-light">Show more</butuon>
+                          <button type="button" aria-expanded="false" aria-controls="collapseExample" data-toggle="collapse" href="#collapseExample" class="btn btn-light">Show more</butuon><br>
+                            <!-- <button type="button" class="btn btn-light pull-left">Add Tag</button> -->
                         </div>
                         
            
@@ -548,11 +555,69 @@
   
   </table> 
   </div>
+<div class="row">
+  <div class="col-md-9 offset-md-3">
+  <button type="button" class="btn btn-light pull-right">Show More</button>
+</div>
+</div>
+
+  <div class="row">
+    <div class="col-4">
+      <h5>Last 3 Local Alerts</h5> 
+      </div>
+
+        </div>
+
+        <div class="row">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Keep me updated when user checks in.</label>
+          </div>
+          </div>
             
+
+  <div class="row">
+
+
+    <table id="edituseralerts" class="table" style="width:100%" style="height:100%" >
+      <script>
+         var y =  [{"User":"Vaclav","date":"1/14/2020","Location":'Chandlar, AZ',"Why":"montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus"},
+            {"User":"Teri","date":"2/9/2020","Location":'Mesa, AZ',"Why":"ante vivamus tortor duis mattis egestas metus aenean fermentum donec"},
+            {"User":"Keenan","date":"7/27/2019","Location":'Gilbert, AZ',"Why":"iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl"}]
+      function updateTable(tableId, jsonData){
+  
+          var tableHTML = "<tr>";
+          for (var headers in jsonData[0]) {
+          tableHTML += "<th>" + headers + "</th>";
+          }
+          tableHTML += "</tr>";
+          let i = 0;
+          for (var eachItem in jsonData) {
+          tableHTML += "<tr data-toggle='modal' id='openrowmodal' data-target='#rowmodal'>";
+          var dataObj = jsonData[eachItem];
+          for (var eachValue in dataObj){
+              if (eachValue === 'Name'){
+                  tableHTML += "<td>" + dataObj[eachValue] + " </td>";
+              }
+              else{
+                  tableHTML += "<td>" + dataObj[eachValue] + "</td>";
+              }
+          }
+          tableHTML += "</tr>";
+          }
+  
+          document.getElementById(tableId).innerHTML = tableHTML;
+          }
+          updateTable("edituseralerts", y);
+      </script>
+  
+  </table> 
+  </div>
+            
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-light float-left" data-dismiss="modal">Show More</button>
-          <button type="button" class="btn btn-light" data-dismiss="modal">Save changes</butuon>
         </div>
       </div>
     </div>
