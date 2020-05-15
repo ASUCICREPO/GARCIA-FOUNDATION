@@ -470,14 +470,14 @@
                                       <label for="phonenumber">Phone Number</label>
                                       <input id="Phone" type="email" class="form-control" id="phonenumber" aria-describedby="emailHelp" placeholder="4806163942">
                                 </div>
-                                <button type="button" id="addalertbutton" class="btn btn-light">Add Alert</button>
+                                
                             </div>
                             <div class="col-6">
                                     <div class="form-group">
                                       <label for="email">Email</label>
                                       <input id="Email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="cc@gmail.com">
                                 </div>
-                                <button type="button" id="addnotebutton" class="btn btn-light">Add Note</button>
+                                
                             </div>
                           </div>
                         </form>
@@ -505,9 +505,31 @@
                         
            
             </div><br>
+            <hr>
+
+      <div class="row">
+        <h5>Currently Enrolled Programs</h5>
+      </div>
+
+      <div class="row">
+        <ul class="list-group">
+          <li class="list-group-item">Help for single moms</li>
+          <li class="list-group-item">Help for families</li>
+          <li class="list-group-item">EBIT (food stamps)</li>
+        </ul>
+      </div>
+
+      <hr>
+
+
+
 <div class="row">
-  <div class="col-4">
+  <div class="col-2">
     <h5>Last 3 Notes</h5> 
+  </div>
+    <div class="col-2">
+    <button type="button" id="addnotebutton" class="btn btn-light">Add Note</button>
+  
     </div>
       <div class="col-8">
             <form class="form-inline">
@@ -516,6 +538,7 @@
             </form>
       </div>
       </div>
+  
 
 
 <div class="row">
@@ -565,7 +588,7 @@
     <div class="col-4">
       <h5>Last 3 Local Alerts</h5> 
       </div>
-
+      <button type="button" id="addalertbutton" class="btn btn-light">Add Alert</button>
         </div>
 
         <div class="row">
@@ -581,7 +604,7 @@
 
     <table id="edituseralerts" class="table" style="width:100%" style="height:100%" >
       <script>
-         var y =  [{"User":"Vaclav","date":"1/14/2020","Location":'Chandlar, AZ',"Why":"montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus"},
+         var y =  [{"User":"Vaclav","date":"1/14/2020","Location":'Chandler, AZ',"Why":"montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus"},
             {"User":"Teri","date":"2/9/2020","Location":'Mesa, AZ',"Why":"ante vivamus tortor duis mattis egestas metus aenean fermentum donec"},
             {"User":"Keenan","date":"7/27/2019","Location":'Gilbert, AZ',"Why":"iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl"}]
       function updateTable(tableId, jsonData){
@@ -593,7 +616,13 @@
           tableHTML += "</tr>";
           let i = 0;
           for (var eachItem in jsonData) {
-          tableHTML += "<tr data-toggle='modal' id='openrowmodal' data-target='#rowmodal'>";
+            if (i == 0){
+              tableHTML += "<tr data-toggle='modal' class='p-3 mb-2 bg-success text-white' id='openrowmodal' data-target='#rowmodal'  data-toggle='tooltip' data-placement='top' title='The individual is currently at this location!'>";
+              i += 1;
+            }
+            else{
+            tableHTML += "<tr data-toggle='modal' data-target='#rowmodal'>";
+            }
           var dataObj = jsonData[eachItem];
           for (var eachValue in dataObj){
               if (eachValue === 'Name'){
