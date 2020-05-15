@@ -160,69 +160,87 @@
         <!-- ### $App Screen Content ### -->
         <main class='main-content bgc-grey-100'>
           <div id='mainContent'>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="bgc-white bd bdrs-3 p-20 mB-20">
-                  <h4 class="c-grey-900 mB-20">All Programs</h4>
-                  <table class="table table-striped" id="allProgramTable">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Program Name</th>
-                        <th scope="col">Contact</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Eligibility Criteria</th>
-                        <th> </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td scope="row">1</td>
-                        <td>Helping Homeless Moms</td>
-                        <td><a href="gmail.com" >Contact Us</a></td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris. In est ante in nibh mauris cursus mattis molestie. Arcu ac tortor dignissim convallis aenean. Tortor consequat id porta nibh. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pellentesque dignissim enim sit amet venenatis.</td>
-                        <td>Quam nulla porttitor massa id neque. Semper feugiat nibh sed pulvinar proin gravida. Augue ut lectus arcu bibendum at varius vel pharetra vel.</td>
-                        <td><a href="edit_programs_admin.html" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
-                                <i class="ti-pencil"></i>
-                              </a></td>
-                      </tr>
-                      <tr>
-                        <td scope="row">2</td>
-                        <td>Single Dads Organization</td>
-                        <td><a href="gmail.com" >Contact Us</a></td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris. In est ante in nibh mauris cursus mattis molestie. Arcu ac tortor dignissim convallis aenean. Tortor consequat id porta nibh. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pellentesque dignissim enim sit amet venenatis.</td>
-                        <td>Quam nulla porttitor massa id neque. Semper feugiat nibh sed pulvinar proin gravida. Augue ut lectus arcu bibendum at varius vel pharetra vel.</td>
-                        <td><a href="edit_programs_admin.html" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5" id = "editIcon">
-                                <i class="ti-pencil"></i>
-                              </a></td>
-                      </tr>
-                      <tr>
-                        <td scope="row">3</td>
-                        <td>Northern Arizona Food Bank</td>
-                        <td><a href="gmail.com" >Contact Us</a></td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris. In est ante in nibh mauris cursus mattis molestie. Arcu ac tortor dignissim convallis aenean. Tortor consequat id porta nibh. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pellentesque dignissim enim sit amet venenatis.</td>
-                        <td>Quam nulla porttitor massa id neque. Semper feugiat nibh sed pulvinar proin gravida. Augue ut lectus arcu bibendum at varius vel pharetra vel.</td>
-                        <td><a href="edit_programs_admin.html" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
-                                <i class="ti-pencil"></i>
-                              </a></td>
-                      </tr>
-                      <tr>
-                        <td scope="row">4</td>
-                        <td>Northern Arizona Housing Assistance</td>
-                        <td><a href="gmail.com" >Contact Us</a></td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris. In est ante in nibh mauris cursus mattis molestie. Arcu ac tortor dignissim convallis aenean. Tortor consequat id porta nibh. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pellentesque dignissim enim sit amet venenatis.</td>
-                        <td>Quam nulla porttitor massa id neque. Semper feugiat nibh sed pulvinar proin gravida. Augue ut lectus arcu bibendum at varius vel pharetra vel.</td>
-                        <td><a href="edit_programs_admin.html" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
-                                <i class="ti-pencil"></i>
-                              </a></td>
-                      </tr>
-                    </tbody>
-                  </table>
+
+                       <div class="masonry-item col-md-8">
+                    
+                <div class="bgc-white p-20 bd">
+                  <h5 class="c-grey-900">Edit Program Details</h5> <h8>*To update Program's Name please go to the "manage organizations" tab.</h8>
+                  <div class="mT-30">
+                    <form>
+                      <div class="form-group row">
+                        <label for="programName" class="col-sm-2 col-form-label">Program Name</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="programName" placeholder="Helping Homeless Moms" disabled>
+                        </div>
+                      </div>
+                       <div class="form-group row">
+                        <label for="contact" class="col-sm-2 col-form-label">Contact</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="contact" placeholder="Email : help@Garcia.org Phone :+1 1800 200 Garcia">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="Description" class="col-sm-2 col-form-label" >Description</label>
+                        <div class="col-sm-10">
+                         <textarea class="form-control"  rows="10" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris. In est ante in nibh mauris cursus mattis molestie. Arcu ac tortor dignissim convallis aenean. Tortor consequat id porta nibh. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pellentesque dignissim enim sit amet venenatis."></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="EligibilityCriteria" class="col-sm-2 col-form-label">Eligibility Criteria</label>
+                        <div class="col-sm-10">
+                         <textarea class="form-control" placeholder="Quam nulla porttitor massa id neque. Semper feugiat nibh sed pulvinar proin gravida. Augue ut lectus arcu bibendum at varius vel pharetra vel.	""></textarea>
+                     <div> </div>
+                          
+
+                
+<div class="form-group row float-left mt-4">
+                        <div class="col-sm-10">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                      </div>
+
+  <div class="form-group row float-center mt-4">    
+  <div class="col-sm-10"> 
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+   Cancel
+</button>
+</div>
+</div>
+</div>
+
+
+
+                        
+                    </form>
+                  </div>
                 </div>
               </div>
-            </div>
+
+            
           </div>
         </main>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirm  Changes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure?
+      </div>
+      <div class="modal-footer">      
+          <button type="button" class="btn btn-secondary "  data-dismiss="modal">
+         No
+          </button>
+          <button type="button" class="btn btn-primary" onclick="window.location.href='index_admin.html'" >Yes</button>
+     </div>
+    </div>
+  </div>
+</div>
       </div>
     </div>
 

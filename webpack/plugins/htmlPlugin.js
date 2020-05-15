@@ -72,8 +72,17 @@ const titles = {
     'add-remove-admin': 'add-remove-admin',
   'caretaker-admin': 'caretaker',
   'form-management-admin': 'form-management-admin',
-  'adminChat': 'adminChat'
-
+  'adminChat': 'adminChat',
+  'endUser_home': 'endUser_home',
+  'powerUser_home': 'powerUser_home',
+  'careCoordinator_home': 'careCoordinator_home',
+  'index_powerUser': 'index_powerUser',
+  'edit_programs_admin': 'edit_programs_admin',
+  'edit_programs_powerUser': 'edit_programs_powerUser',
+  'index_powerUser': 'index_powerUser',
+  'careCoordinator_index': 'careCoordinator_index',
+  'edit_programs_admin': 'edit_programs_admin',
+  'edit_programs_powerUser': 'edit_programs_powerUser'
 }
 
 module.exports = Object.keys(titles).map((title) => {
