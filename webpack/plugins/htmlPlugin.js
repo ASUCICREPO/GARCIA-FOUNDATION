@@ -82,7 +82,11 @@ const titles = {
   'index_powerUser': 'index_powerUser',
   'careCoordinator_index': 'careCoordinator_index',
   'edit_programs_admin': 'edit_programs_admin',
-  'edit_programs_powerUser': 'edit_programs_powerUser'
+  'edit_programs_powerUser': 'edit_programs_powerUser',
+  'notifications-admin': 'notifications-admin',
+  'notifications-endUser': 'notifications-endUser',
+  'notifications-powerUser': 'notifications-powerUser',
+  'notifications-careCoordinator': 'notifications-careCoordinator'
 }
 
 module.exports = Object.keys(titles).map((title) => {
