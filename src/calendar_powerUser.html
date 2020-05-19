@@ -290,11 +290,11 @@ $(document).ready(function(){
                   <div class="peers ai-c fxw-nw">
                     <div class="peer">
                       <div class="logo">
-                        <img src="assets/static/images/garcialogo.png"  style="width: 50px; height: 50px;" alt="">
+                        <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
                       </div>
                     </div>
                     <div class="peer peer-greed">
-                      <h5 class="lh-1 mB-0 logo-text">Garcia</h5>
+                      <h5 class="lh-1 mB-0 logo-text">GARCIA</h5>
                     </div>
                   </div>
                 </a>
@@ -361,8 +361,8 @@ $(document).ready(function(){
                        <div class="form-group">
                       
                           
-                            <button type="button" class="btn btn-primary pull-left" align="center" width = "50p"  onclick="window.location.href='calendar_powerUser.html'">Manage Availability</button>  &nbsp;&nbsp;&nbsp;&nbsp;
-                             <button type="button" class="btn btn-primary pull-right" align="center" witdh = "50p"  onclick="window.location.href='calendar_powerUser_add_availability.html'" >Schedule Appointment</button>
+                            <button type="button" class="btn btn-primary pull-left" align="center" width = "50p"  onclick="window.location.href='calendar_admin.html'">Manage Availability</button>  &nbsp;&nbsp;&nbsp;&nbsp;
+                             <button type="button" class="btn btn-primary pull-right" align="center" witdh = "50p"  onclick="window.location.href='calendar_admin_add_availability.html'" >Schedule Appointment</button>
                           
                       </div>
 
@@ -381,7 +381,7 @@ $(document).ready(function(){
       <div class="modal-body">
       <form>
                       <div class="form-group ">
-                          <label for="inputState">Garcia User</label>
+                          <label for="inputState">GARCIAUser</label>
                           <select id="inputState" class="form-control">
                             <option selected>Erika Noah</option>
                             <option>Tom Sawyer</option>
@@ -669,7 +669,7 @@ $(document).ready(function(){
                 <div id='full-calendar'></div>
                 </div>
                 </div>
-                <div class="masonry-item col-md-6" id = "Appointments">
+                <div class="masonry-item col-md-6">
                 <div class="bgc-white p-20 bd">
                   <h6 class="c-grey-900">Manage Availability</h6>
                  
@@ -702,6 +702,11 @@ $(document).ready(function(){
                                 <i class="ti-trash"></i>
                               </a>
                             </div>
+                            <div class="peer">
+                              <a href="" data-toggle="modal" data-target="#downloadmodal" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
+                                <i class="c-blue-500 fas fa-long-arrow-alt-down"></i>
+                              </a>
+                            </div>
                           </div>
                         </li>
                         <li class="bdB peers ai-c jc-sb fxw-nw">
@@ -725,6 +730,11 @@ $(document).ready(function(){
                             <div class="peer">
                               <a href="" class="td-n c-red-500 cH-blue-500 fsz-md p-5">
                                 <i class="ti-trash"></i>
+                              </a>
+                            </div>
+                            <div class="peer">
+                              <a href="" data-toggle="modal" data-target="#downloadmodal" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
+                                <i class="c-blue-500 fas fa-long-arrow-alt-down"></i>
                               </a>
                             </div>
                           </div>
@@ -790,6 +800,39 @@ $(document).ready(function(){
               </div>
               
                 </div>
+                </div>
+
+
+
+                <!-- modal1 -->
+                <div class="modal fade" id="downloadmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">What type of calendar file:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">Outlook</button>
+                          </div>
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">XML</button>
+                          </div>
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">iCal</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 </main>
