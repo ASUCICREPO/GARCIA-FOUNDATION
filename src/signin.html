@@ -75,9 +75,9 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if (username == "poweruser" && password == "poweruser"){
-var redirectPage = 'http://localhost:3000/powerUser.html'
+var redirectPage = 'http://localhost:3000/powerUser_home.html'
 try{
-  setTimeout(function(){document.location.href = "http://localhost:3000/powerUser.html"},500); 
+  setTimeout(function(){document.location.href = "http://localhost:3000/powerUser_home.html"},500); 
 alert ("Login successful");
 
 }
@@ -91,9 +91,9 @@ catch(err){
  // Redirecting to other page.
 
 }else if (username == "user" && password == "user"){
-var redirectPage = "http://localhost:3000/endUserprograms.html"
+var redirectPage = "http://localhost:3000/endUser_home.html"
 try{
-  setTimeout(function(){document.location.href = "http://localhost:3000/endUserprograms.html"},500); 
+  setTimeout(function(){document.location.href = "http://localhost:3000/endUser_home.html"},500); 
 alert ("Login successful");
 
 }
@@ -107,9 +107,25 @@ catch(err){
  // Redirecting to other page.
 
 }else if (username == "admin" && password == "admin"){
-var redirectPage = 'http://localhost:3000/index_admin.html'
+var redirectPage = 'http://localhost:3000/admin_home.html'
 try{
-  setTimeout(function(){document.location.href = "http://localhost:3000/index_admin.html"},500); 
+  setTimeout(function(){document.location.href = "http://localhost:3000/admin_home.html"},500); 
+alert ("Login successful");
+
+}
+catch(err){
+  alert(err.message);
+}
+
+ return false;
+
+
+ // Redirecting to other page.
+
+}else if (username == "carecoordinator" && password == "carecoordinator"){
+var redirectPage = 'http://localhost:3000/careCoordinator_home.html'
+try{
+  setTimeout(function(){document.location.href = "http://localhost:3000/careCoordinator_home.html"},500); 
 alert ("Login successful");
 
 }
@@ -140,8 +156,8 @@ return false;
     </script>
     
     <div class="peers ai-s fxw-nw h-100vh">
-      <div class="d-n@sm- peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("assets/static/images/navajo.jpg")'>
-      <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="" align = "left">
+      <div class="d-n@sm- peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("assets/static/images/desert.jpg")'>
+       <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
        
       </div>
        

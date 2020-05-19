@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Home</title>
+    <title>All Programs</title>
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Public+Sans|Source+Sans+Pro|Roboto&display=swap" rel="stylesheet">
     <style>
@@ -53,41 +53,6 @@
           opacity: 0;
         }
       }
-      body {
-    color: #fff;
-    overflow-x: hidden;
-    height: 100%;
-    background-color: #CFD8DC;
-    background-repeat: no-repeat
-}
-
-.card {
-    background-image: url('assets/static/images/Sunny Days - Seamless.jpg');
-    background-size: cover;
-    width: 600px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 4px #9E9E9E;
-    margin-top: 50px;
-    margin-bottom: 50px
-   color : black
-}
-
-.time-font {
-    font-size: 50px
-}
-
-.sm-font {
-    font-size: 18px
-}
-
-.med-font {
-    font-size: 28px
-}
-
-.large-font {
-    font-size: 60px
-}
     </style>
   </head>
 
@@ -124,7 +89,7 @@
      $('#myModal').modal();
    }
 });
-
+      
     </script>
 
     <!-- @App Content -->
@@ -141,11 +106,11 @@
                   <div class="peers ai-c fxw-nw">
                     <div class="peer">
                       <div class="logo">
-                        <img src="assets/static/images/garcialogo.png"  style="width: 50px; height: 50px;" alt="">
+                        <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
                       </div>
                     </div>
                     <div class="peer peer-greed">
-                      <h5 class="lh-1 mB-0 logo-text">Garcia</h5>
+                      <h5 class="lh-1 mB-0 logo-text">GARCIA</h5>
                     </div>
                   </div>
                 </a>
@@ -185,79 +150,138 @@
         <main class='main-content bgc-grey-100'>
         
           <div id='mainContent'>
-
-          <h3>Good Morning John Doe!</h3>
-               <form class="form-inline">
-            
-  
- <div class="form-group">
-                        <label for="inputState">Organization</label>
-                        &nbsp;&nbsp;
-                          <select id="inputState" class="form-control" aria-expanded="false">
-                          <option selected>All</option>
-                            <option>Homelessness</option>
-                            <option>Child Care</option>
-                          </select>
-                      </div>
- &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                      <div class="form-group">
-                        <label for="inputState">Time Frame</label>  &nbsp;&nbsp;
-                          <select id="nputState" class="form-control" aria-expanded="false">
-                            <option selected>Today</option>
-                            <option>This Week</option>
-                            <option>This Month</option>
-                            <option>YTD</option>
-                            <option>All</option>
-                          </select>
-                        </div>
-                        </form>
- 
+         
 
  <table class="table" style="width:100%" style="height:100%" >
  
     <thead class = "thead-dark">
-        <tr><th>S. No.</th>
-            <th>User Activity</th>
-            <th>Case Referrals</th>
+      <tr>
 
+            <th><label for="inputState">Time Stamp</label>
+                          <select id="inputState" class="form-control" aria-expanded="false">
+                            <option selected>New to Old</option>
+                            <option>Old to New</option>
+                          </select></th>
 
-                    
-            <th>Total Organizations</th>
-         
+            <th><label for="inputState">Program Name </label>
+                          <select id="inputState" class="form-control" aria-expanded="false">
+                            <option selected>All</option>
+                            <option>Homelessness</option>
+                            <option>Single Moms</option>
+                            <option>Care for Elderly</option>
+                            <option>Youth for work</option>
+                          </select></th>
+                <th><label for="inputState">Resource Type </label>
+                  <select id="inputState" class="form-control" aria-expanded="false">
+                    <option selected>All</option>
+                  </select></th>
+
+                  <th><label for="inputState">Available Resources</label>
+                    <select id="inputState" class="form-control" aria-expanded="false">
+                      <option selected>All</option>
+                    </select></th>
+
             
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>1</td>
-            <td>200 Active users today</td>
-            <td>50 users had referrals today</td>
-            <td>40 Organizations</td>
-          
-            
-        </tr>
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Homelessness</td>
+        <td>All</td>
+        <td>Individual Beds: 19, Pre-packaged meals: 105</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Health Care</td>
+        <td>All</td>
+        <td>Flu Shots: 49, Check-Up shots: 23</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Child Care</td>
+        <td>All</td>
+        <td>Tutors: 7, School Supplies: 32</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Single Moms</td>
+        <td>All</td>
+        <td>Pre-Natal Check-ups: 8, New Born Checkups: 34, Diaper Packs: 112</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Youth Foundation</td>
+        <td>All</td>
+        <td>Individual Beds: 19, Counseling Sessions: 15</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>2019-07-04*13:23:55</td>
+        <td>Education</td>
+        <td>All</td>
+        <td>School Supply Kits: 34, Tutors: 10, Backpacks: 19</td>
+        <td>
+          <button type="button" onclick="switchcolor(this)" class="btn btn-light">Request Resource</button>
+        </td>
+      </tr>
        
-        
        
        
     </tbody>
 </table>
+ 
+
+                    
                    
                   </div>
-                  <div class="container-fluid px-1 px-md-4 py-5 mx-auto pull-left">
-    <div class="row d-flex justify-content-left px-3">
-        <div class="card">
-            <h2 class="ml-auto mr-4 mt-3 mb-0">Tempe</h2>
-            
-            <p class="ml-auto mr-4 mb-0 med-font">Mostly Sunny</p>
-            <h1 class="ml-auto mr-4 large-font">73&#176;</h1>
-            <p class="time-font mb-0 ml-4 mt-auto">08:30 <span class="sm-font">AM</span></p>
-            <p class="ml-4 mb-4">Monday, 20 April 2020</p>
-        </div>
-    </div>
-</div>
-  
+  <a style="padding-top: .5%" href=""><span>Export CSV</span></a>                
+<i class="fas fa-arrow-right fa-2x pull-right c-black-500 mT-3"></i>
+                      <span class="pull-right mL-10 mR-10 mT-3" style="line-height: 2.1;">Page 1/10</span>
+                      <i class="fas fa-arrow-left fa-2x pull-right c-black-500 mT-3"></i>
+                </div>
+              </div>
+<script>
+  function switchcolor(button){
+    if (button.classList[1] === 'btn-light'){
+      button.classList.remove('btn-light');
+      button.classList.add('btn-primary');
+      button.innerText = 'Resource Requested';
+      
+    }
+    else{
+      button.classList.remove('btn-primary');
+      button.classList.add('btn-light');
+      button.innerText = 'Request Resource';
+      
+    }
+    console.log(button);
 
+  }
+</script>
 
     <script src="https://kit.fontawesome.com/bbf8fb8b35.js" crossorigin="anonymous"></script>
   </body>
