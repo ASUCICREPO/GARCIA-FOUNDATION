@@ -702,6 +702,11 @@ $(document).ready(function(){
                                 <i class="ti-trash"></i>
                               </a>
                             </div>
+                            <div class="peer">
+                              <a href="" data-toggle="modal" data-target="#downloadmodal" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
+                                <i class="c-blue-500 fas fa-long-arrow-alt-down"></i>
+                              </a>
+                            </div>
                           </div>
                         </li>
                         <li class="bdB peers ai-c jc-sb fxw-nw">
@@ -725,6 +730,11 @@ $(document).ready(function(){
                             <div class="peer">
                               <a href="" class="td-n c-red-500 cH-blue-500 fsz-md p-5">
                                 <i class="ti-trash"></i>
+                              </a>
+                            </div>
+                            <div class="peer">
+                              <a href="" data-toggle="modal" data-target="#downloadmodal" class="td-n c-deep-purple-500 cH-blue-500 fsz-md p-5">
+                                <i class="c-blue-500 fas fa-long-arrow-alt-down"></i>
                               </a>
                             </div>
                           </div>
@@ -790,6 +800,39 @@ $(document).ready(function(){
               </div>
               
                 </div>
+                </div>
+
+
+
+                <!-- modal1 -->
+                <div class="modal fade" id="downloadmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">What type of calendar file:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">Outlook</button>
+                          </div>
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">XML</button>
+                          </div>
+                          <div class="col-4">
+                            <button type="button" class="btn btn-light">iCal</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 </main>
