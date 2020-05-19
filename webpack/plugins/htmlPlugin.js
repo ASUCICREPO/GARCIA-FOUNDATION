@@ -88,7 +88,10 @@ const titles = {
   'careCoordinator_index': 'careCoordinator_index',
   'caretaker-careCoordinator': 'caretaker-careCoordinator',
   'invite_careCoordinator': 'invite_careCoordinator',
-  'form-management-powerUser': 'form-management-powerUser'
+  'form-management-powerUser': 'form-management-powerUser',
+  'resources_admin':'resources_admin',
+  'resources_powerUser': 'resources_powerUser',
+  'resources_careCoorindator': 'resources_careCoorindator',
 
 }
 

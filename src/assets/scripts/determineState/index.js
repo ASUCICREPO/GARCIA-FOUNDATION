@@ -35,6 +35,14 @@ let adminBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
+<a class='sidebar-link' href="newpage.html">
+  <span class="icon-holder">
+  <i class="c-blue-500 fas fa-box"></i>
+  </span>
+  <span class="title">Resource Management</span>
+</a>
+</li>
+<li class="nav-item mT-30 actived">
 <a class="sidebar-link" href="form-management-admin.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-clipboard"></i>
@@ -126,6 +134,14 @@ let powerUserBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
+<a class='sidebar-link' href="newpage.html">
+  <span class="icon-holder">
+  <i class="c-blue-500 fas fa-box"></i>
+  </span>
+  <span class="title">Resource Management</span>
+</a>
+</li>
+<li class="nav-item mT-30 actived">
 <a class="sidebar-link" href="invite_powerUser.html">
   <span class="icon-holder">
     <i class="c-blue-500 fab fa-telegram-plane"></i>
@@ -174,6 +190,14 @@ let careCoordinatorBar = `<li class="nav-item mT-30 actived">
     <i class="c-blue-500 fas fa-comments"></i>
   </span>
   <span class="title">Chat</span>
+</a>
+</li>
+<li class="nav-item mT-30 actived">
+<a class='sidebar-link' href="newpage.html">
+  <span class="icon-holder">
+  <i class="c-blue-500 fas fa-box"></i>
+  </span>
+  <span class="title">Resource Management</span>
 </a>
 </li>
 <li class="nav-item mT-30 actived">
