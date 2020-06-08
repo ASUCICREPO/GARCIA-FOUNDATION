@@ -92,6 +92,7 @@ const titles = {
   'resources_admin':'resources_admin',
   'resources_powerUser': 'resources_powerUser',
   'resources_careCoorindator': 'resources_careCoorindator',
+  "settings_careCoordinator": "settings_careCoordinator"
 
 }
 

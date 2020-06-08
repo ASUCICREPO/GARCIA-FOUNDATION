@@ -35,7 +35,7 @@ let adminBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_admin.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
@@ -134,7 +134,7 @@ let powerUserBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_powerUser.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
@@ -193,7 +193,7 @@ let careCoordinatorBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_careCoorindator.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
