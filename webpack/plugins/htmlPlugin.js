@@ -92,7 +92,13 @@ const titles = {
   'resources_admin':'resources_admin',
   'resources_powerUser': 'resources_powerUser',
   'resources_careCoorindator': 'resources_careCoorindator',
-  "settings_careCoordinator": "settings_careCoordinator"
+  "settings_careCoordinator": "settings_careCoordinator",
+  "calendar_schedule_appointment_powerUser": "calendar_schedule_appointment_powerUser",
+  "calendar_schedule_appointment_careCoordinator" : "calendar_schedule_appointment_careCoordinator",
+  "calendar_schedule_appointment_EndUser" : "calendar_schedule_appointment_EndUser",
+  "email_admin": "email_admin",
+  "email_powerUser" : "email_powerUser",
+  "email_careCoordinator": "email_careCoordinator"
 
 }
 
