@@ -35,7 +35,7 @@ let adminBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_admin.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
@@ -134,7 +134,7 @@ let powerUserBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_powerUser.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
@@ -193,7 +193,7 @@ let careCoordinatorBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="newpage.html">
+<a class='sidebar-link' href="resources_careCoorindator.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>
@@ -350,7 +350,7 @@ let admin_settings = `<div class="header-container">
       <li>
         <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_admin.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
               </div>
@@ -395,7 +395,7 @@ let admin_settings = `<div class="header-container">
                       </li>
          
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_admin.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
               </div>
@@ -420,7 +420,7 @@ let admin_settings = `<div class="header-container">
       </li>
       <li class="pX-20 pY-15 ta-c bdT">
         <span>
-          <a href="email.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
+          <a href="email_admin.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
         </span>
       </li>
     </ul>
@@ -550,7 +550,7 @@ let careCoordinator_settings = `<div class="header-container">
       <li>
         <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_careCoordinator.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
               </div>
@@ -595,7 +595,7 @@ let careCoordinator_settings = `<div class="header-container">
         </li>
          
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_careCoordinator.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
               </div>
@@ -620,7 +620,7 @@ let careCoordinator_settings = `<div class="header-container">
       </li>
       <li class="pX-20 pY-15 ta-c bdT">
         <span>
-          <a href="email.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
+          <a href="email_careCoordinator.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
         </span>
       </li>
     </ul>
@@ -772,7 +772,7 @@ let powerUser_settings = `<div class="header-container">
       <li>
         <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_powerUser.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
               </div>
@@ -795,7 +795,7 @@ let powerUser_settings = `<div class="header-container">
           </li>
          
           <li>
-            <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+            <a href="email_powerUser.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
               <div class="peer mR-15">
                 <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
               </div>
@@ -820,7 +820,7 @@ let powerUser_settings = `<div class="header-container">
       </li>
       <li class="pX-20 pY-15 ta-c bdT">
         <span>
-          <a href="email.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
+          <a href="email_powerUser.html" class="c-grey-600 cH-blue fsz-sm td-n">View All Messages <i class="fs-xs ti-angle-right mL-10"></i></a>
         </span>
       </li>
     </ul>
