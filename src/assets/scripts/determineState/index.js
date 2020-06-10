@@ -442,12 +442,6 @@ let admin_settings = `<div class="header-container">
           <span>Profile</span>
         </a>
       </li>
-      <li>
-        <a href="adminChat.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
-          <i class="ti-email mR-10"></i>
-          <span>Messages</span>
-        </a>
-      </li>
       <li role="separator" class="divider"></li>
       <li>
         <a href="signin.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
