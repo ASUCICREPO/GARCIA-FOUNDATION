@@ -193,7 +193,7 @@ let careCoordinatorBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="resources_careCoorindator.html">
+<a class='sidebar-link' href="resources_careCoordinator.html">
   <span class="icon-holder">
   <i class="c-blue-500 fas fa-box"></i>
   </span>

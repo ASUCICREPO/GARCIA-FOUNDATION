@@ -91,7 +91,7 @@ const titles = {
   'form-management-powerUser': 'form-management-powerUser',
   'resources_admin':'resources_admin',
   'resources_powerUser': 'resources_powerUser',
-  'resources_careCoorindator': 'resources_careCoorindator',
+  'resources_careCoordinator': 'resources_careCoordinator',
   "settings_careCoordinator": "settings_careCoordinator",
   "calendar_schedule_appointment_powerUser": "calendar_schedule_appointment_powerUser",
   "calendar_schedule_appointment_careCoordinator" : "calendar_schedule_appointment_careCoordinator",
