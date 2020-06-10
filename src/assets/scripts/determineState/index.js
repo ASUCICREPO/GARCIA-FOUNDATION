@@ -167,7 +167,7 @@ let careCoordinatorBar = `<li class="nav-item mT-30 actived">
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class="sidebar-link" href="careCoordinator_ ">
+<a class="sidebar-link" href="careCoordinator_index.html">
   <span class="icon-holder">
     <i class="c-blue-500 fas fa-search"></i>
   </span>
@@ -642,12 +642,7 @@ let careCoordinator_settings = `<div class="header-container">
           <span>Profile</span>
         </a>
       </li>
-      <li>
-        <a href="careCoordinatorChat.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
-          <i class="ti-email mR-10"></i>
-          <span>Messages</span>
-        </a>
-      </li>
+
       <li role="separator" class="divider"></li>
       <li>
         <a href="signin.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
@@ -842,12 +837,7 @@ let powerUser_settings = `<div class="header-container">
           <span>Profile</span>
         </a>
       </li>
-      <li>
-        <a href="powerUserChat.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
-          <i class="ti-email mR-10"></i>
-          <span>Messages</span>
-        </a>
-      </li>
+
       <li role="separator" class="divider"></li>
       <li>
         <a href="signin.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
