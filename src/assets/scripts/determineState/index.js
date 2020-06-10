@@ -372,7 +372,7 @@ let admin_settings = `<div class="header-container">
             </a>
           </li>
           <li>
-                        <a href="" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+                        <a href="email_admin.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
                           <div class="peer mR-15">
                             <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/7.jpg" alt="">
                           </div>
@@ -572,7 +572,7 @@ let careCoordinator_settings = `<div class="header-container">
             </a>
           </li>
           <li>
-          <a href="" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+          <a href="email_careCoordinator.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
             <div class="peer mR-15">
               <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/7.jpg" alt="">
             </div>
@@ -975,7 +975,7 @@ let endUserSettings = `
                 </a>
               </li>
               <li>
-              <a href="" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
+              <a href="email.html" class='peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100'>
                 <div class="peer mR-15">
                   <img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/7.jpg" alt="">
                 </div>
@@ -1045,12 +1045,7 @@ let endUserSettings = `
               <span>Profile</span>
             </a>
           </li>
-          <li>
-            <a href="endUserChat.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
-              <i class="ti-email mR-10"></i>
-              <span>Messages</span>
-            </a>
-          </li>
+
           <li role="separator" class="divider"></li>
           <li>
             <a href="signin.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
