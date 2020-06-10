@@ -96,21 +96,22 @@
     <!-- =================================================== -->
     <div>
       <!-- #Left Sidebar ==================== -->
-      <!-- #Left Sidebar ==================== -->
       <div class="sidebar">
         <div class="sidebar-inner">
           <!-- ### $Sidebar Header ### -->
           <div class="sidebar-logo">
             <div class="peers ai-c fxw-nw">
               <div class="peer peer-greed">
-                <a class="sidebar-link td-n" href="index.html">
+                <a class="sidebar-link td-n" href=" ">
                   <div class="peers ai-c fxw-nw">
                     <div class="peer">
                       <div class="logo">
-                        <img src="assets/static/images/garcialogo.png" style="width: 50px; height: 50px;" alt="">
+                        <img src="assets/static/images/logo.png" alt="">
                       </div>
                     </div>
-                    
+                    <div class="peer peer-greed">
+                      <h5 class="lh-1 mB-0 logo-text">Garcia</h5>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -124,11 +125,11 @@
             </div>
           </div>
 
-          <!-- ### $Sidebar Menu ### -->
-          <ul class="sidebar-menu scrollable pos-r" id="sideNavBar">
-          </ul>
-        </div>
+        <!-- ### $Sidebar Menu ### -->
+        <ul class="sidebar-menu scrollable pos-r" id="sideNavBar">
+        </ul>
       </div>
+    </div>
 
       <!-- #Main ============================ -->
       <div class="page-container">
@@ -337,7 +338,7 @@
                   </li>
                   <li role="separator" class="divider"></li>
                   <li>
-                    <a href="signin.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+                    <a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
                       <i class="ti-power-off mR-10"></i>
                       <span>Logout</span>
                     </a>
@@ -347,75 +348,6 @@
             </ul>
           </div>
         </div>
-
-        <!-- modal for upload -->
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Upload Documents</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-9">
-                    <p>Upload Drivers License or State ID</p>
-                  </div>
-                    <div class="col-3">
-                      <button type="button" class="btn btn-primary" >Upload</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-9">
-                    <p>Upload Birth Certificate</p>
-                  </div>
-                    <div class="col-3">
-                      <button type="button" class="btn btn-primary" >Upload</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-9">
-                    <p>Current Attached Documents to your profile</p>
-                  </div>
-                    <div class="col-3">
-                      <button type="button" class="btn btn-primary" >Upload</button>
-                    </div>
-                </div>
-
-                <h4>Current Attached Documents to your profile</h4>
-
-                <div class="row">
-                  <div class="col-9">
-                    <p>DL-Scan-05/13/2020</p>
-                  </div>
-                    <div class="col-3">
-                      <button type="button" class="btn btn-danger">delete</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-9">
-                    <p>EBT</p>
-                  </div>
-                    <div class="col-3">
-                      <button type="button" class="btn btn-danger">delete</button>
-                    </div>
-                </div>
-                  
-                </div>
-           
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-primary">Send message</button> -->
-              </div>
-            </div>
-          </div>
-        </div>
-     
 
         <!-- ### $App Screen Content ### -->
         <main class='main-content bgc-grey-100'>
@@ -440,32 +372,24 @@
                         </tr>
                         <tr>
                             <td class="profile-title-text">Password</td>
-                           
                             <td class="profile-info">••••••••</td>
                             <td class="input-button-cell">
-                              <a href="edit-profile-careCoordinator.html">
+                              <a href="edit-profile-endUser.html">
                                 <button type="button" class="btn btn-primary" id="editProfileButton">Edit</button>
                               </a>
                             </td>
-                            
                         </tr>
-                        
+                        <tr>
+                          <td class="profile-title-text">Upload Documents</td>
+                          <td class="profile-info"></td>
+                          <td class="input-button-cell">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#uploadmodal" id="editProfileButton">Upload</button>
+                          </td>
+                      </tr>
                     </table>
-                    <div class="row">
-                      <div class="col-3">
-                        <p>Upload Documents</p>
-                      </div>
-                      <div class="col-7">
-
-                      </div>
-                      <div class="col-2">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" >Upload</button>
-                      </div>
-                    </div>
                     </div>
                   </div>
                 </div>
-            </div>
             </div>
             <div class="container-fluid" id="profileCardContainer">
               <div class="col-md-9" id="centeredCard">
@@ -497,6 +421,75 @@
           </div>
         </main>
       </div>
+              <!-- modal for upload -->
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" id="uploadmodal" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Upload Documents</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-9">
+                          <p>Upload Drivers License or State ID</p>
+                        </div>
+                          <div class="col-3">
+                            <button type="button" class="btn btn-primary" >Upload</button>
+                          </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-9">
+                          <p>Upload Birth Certificate</p>
+                        </div>
+                          <div class="col-3">
+                            <button type="button" class="btn btn-primary" >Upload</button>
+                          </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-9">
+                          <p>Current Attached Documents to your profile</p>
+                        </div>
+                          <div class="col-3">
+                            <button type="button" class="btn btn-primary" >Upload</button>
+                          </div>
+                      </div>
+      
+                      <h4>Current Attached Documents to your profile</h4>
+      
+                      <div class="row">
+                        <div class="col-9">
+                          <p>DL-Scan-05/13/2020</p>
+                        </div>
+                          <div class="col-3">
+                            <button type="button" class="btn btn-danger">delete</button>
+                          </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-9">
+                          <p>EBT</p>
+                        </div>
+                          <div class="col-3">
+                            <button type="button" class="btn btn-danger">delete</button>
+                          </div>
+                      </div>
+                        
+                      </div>
+                 
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <!-- <button type="button" class="btn btn-primary">Send message</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+      
     </div>
 
     <script src="https://kit.fontawesome.com/bbf8fb8b35.js" crossorigin="anonymous"></script>
