@@ -102,7 +102,10 @@ const titles = {
   "edit-profile-powerUser": "edit-profile-powerUser",
   "edit-profile-careCoordinator": "edit-profile-careCoordinator",
   "edit-profile-endUser": "edit-profile-endUser",
-  "settings_endUser": "settings_endUser"
+  "settings_endUser": "settings_endUser",
+  "profile-image-powerUser": "profile-image-powerUser",
+  "profile-image-careCoordinator": "profile-image-careCoordinator",
+  "profile-image-endUser": "profile-image-endUser"
 
 }
 
