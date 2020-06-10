@@ -245,7 +245,7 @@ let endUserBar = `
 </a>
 </li>
 <li class="nav-item mT-30 actived">
-<a class='sidebar-link' href="calendarEndUser.html">
+<a class='sidebar-link' href="calendar_schedule_appointment_EndUser.html">
   <span class="icon-holder">
     <i class="c-blue-500 fas fa-calendar-check"></i>
   </span>
@@ -1040,7 +1040,7 @@ let endUserSettings = `
         <ul class="dropdown-menu fsz-sm">
           
           <li>
-            <a href="edit-profile-endUser.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+            <a href="settings_endUser.html" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
               <i class="ti-user mR-10"></i>
               <span>Profile</span>
             </a>

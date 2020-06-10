@@ -98,7 +98,11 @@ const titles = {
   "calendar_schedule_appointment_EndUser" : "calendar_schedule_appointment_EndUser",
   "email_admin": "email_admin",
   "email_powerUser" : "email_powerUser",
-  "email_careCoordinator": "email_careCoordinator"
+  "email_careCoordinator": "email_careCoordinator",
+  "edit-profile-powerUser": "edit-profile-powerUser",
+  "edit-profile-careCoordinator": "edit-profile-careCoordinator",
+  "edit-profile-endUser": "edit-profile-endUser",
+  "settings_endUser": "settings_endUser"
 
 }
 
