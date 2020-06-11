@@ -105,7 +105,10 @@ const titles = {
   "settings_endUser": "settings_endUser",
   "profile-image-powerUser": "profile-image-powerUser",
   "profile-image-careCoordinator": "profile-image-careCoordinator",
-  "profile-image-endUser": "profile-image-endUser"
+  "profile-image-endUser": "profile-image-endUser",
+  "edit-contact-preferences-powerUser": "edit-contact-preferences-powerUser",
+  "edit-contact-preferences-careCoordinator": "edit-contact-preferences-careCoordinator",
+  "edit-contact-preferences-endUser": "edit-contact-preferences-endUser"
 
 }
 
