@@ -45,7 +45,7 @@ let adminBar = `<li class="nav-item mT-30 actived">
 <li class="nav-item mT-30 actived">
 <a class="sidebar-link" href="form-management-admin.html">
   <span class="icon-holder">
-  <i class="c-blue-500 fas fa-clipboard"></i>
+  <i class="c-blue-500 fas fa-paste"></i>
   </span>
   <span class="title">Form Management</span>
 </a>
@@ -120,7 +120,7 @@ let powerUserBar = `<li class="nav-item mT-30 actived">
 <a class="sidebar-link" href="form-management-powerUser.html">
   <span class="icon-holder">
    
-    <i class="c-blue-500 fas fa-clipboard"></i>
+  <i class="c-blue-500 fas fa-paste"></i>
   </span>
   <span class="title">Form Management</span>
 </a>
