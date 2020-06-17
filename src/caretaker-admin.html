@@ -696,7 +696,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Add Note Here</h5>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+        <button type="button" id= "addnotemodalcross" class="close" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -793,12 +793,12 @@
 
 
         <!-- Add Alert Modal -->
-        <div class="modal" id="addalertmodal" style=".close {display: none;}" data-backdrop="static">
+        <div class="modal" id="addalertmodal" data-backdrop="static">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLongTitle">Add Alert Here</h5>
-                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+                <button type="button" id="addalertmodalcross" class="close" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
@@ -922,7 +922,15 @@
     $(document).on("click","#submitnotebutton",function(){
       $('#addnotemodal').modal('hide');
       $('#editusermodal').modal('show');
-      
+    });
+
+    $(document).on("click","#addalertmodalcross",function(){
+      $('#addalertmodal').modal('hide');
+      $('#editusermodal').modal('show');
+    });
+    $(document).on("click","#addnotemodalcross",function(){
+      $('#addnotemodal').modal('hide');
+      $('#editusermodal').modal('show');
     });
 
     $('.dropdown-toggle').dropdown()
